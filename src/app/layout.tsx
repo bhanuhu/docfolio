@@ -4,6 +4,7 @@ import Script from 'next/script';
 import './globals.css';
 
 export const metadata: Metadata = {
+  referrer: 'no-referrer',
   title: 'Docfolio | See the full picture of your health with Whole Body MRI',
   description:
     'Proactive health memberships combining Whole Body MRI, advanced blood biomarker testing, and ongoing clinical guidance—designed to help you track your health year over year.',
@@ -20,6 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <head>
+        <meta name="referrer" content="no-referrer" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
